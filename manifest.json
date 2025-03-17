@@ -1,0 +1,22 @@
+{
+  "name": "My extension",
+  "version": "1.0.0",
+  "description": "Make a good day with cat!",
+  "manifest_version": 3,
+  "author": {
+    "name": "th33raphat",
+    "email": "theeraphatchueanokkhum@gmail.com"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Simple extension"
+  },
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "permissions": [
+    "scripting",
+    ""
+  ]
+}
