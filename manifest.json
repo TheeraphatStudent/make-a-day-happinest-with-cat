@@ -15,6 +15,36 @@
     "https://*/*",
     "http://*/*"
   ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "script/*.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "script/init.js",
+        "script/load.js"
+      ],
+      "type": "module",
+      "exclude_matches": [
+        "*://*/*"
+      ],
+      "all_frames": false,
+      "match_origin_as_fallback": false,
+      "match_about_blank": false,
+      "run_at": "document_idle",
+      "world": "ISOLATED"
+    }
+  ],
   "permissions": [
     "scripting"
   ]

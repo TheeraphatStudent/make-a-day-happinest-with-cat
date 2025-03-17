@@ -1,4 +1,4 @@
-class CreateFrame {
+export class CreateFrame {
   constructor() {
     this.init();
   }
@@ -39,8 +39,4 @@ class CreateFrame {
     const data = await response.json();
     return data[0]?.url;
   }
-}
-
-export {
-  CreateFrame
 }
