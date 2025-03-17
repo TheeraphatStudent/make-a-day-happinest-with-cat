@@ -16,7 +16,6 @@
     "http://*/*"
   ],
   "permissions": [
-    "scripting",
-    ""
+    "scripting"
   ]
 }

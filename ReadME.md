@@ -50,9 +50,9 @@ you can see permission [here](https://developer.chrome.com/docs/extensions/devel
 on extension you can see on error in extension, try to open it <br>
 in my case, i get `Refused to execute inline script because it violates the following Content Security Policy directive...` so let fixed!
 
-1. Find way to avoid using the [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP)
-
-2. 
+`
+Find way to avoid using the [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP)
+`
 
 ### To public private chrome extension to public
 
